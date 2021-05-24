@@ -11,7 +11,7 @@ var T = new Twit({
 
 const random = Math.floor(Math.random() * 99999999999999999);
 
-T.post('statuses/update', { status: (random) }, function(err, data, response) {
+T.post('statuses/update', { status: 'Num'(random) }, function(err, data, response) {
   console.log(data)
   console.log(random)
 })
