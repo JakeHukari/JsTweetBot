@@ -4,6 +4,5 @@
 # Instructions
 ###### git clone https://www.github.com/krypt0c/JsTweetBot
 ###### cd JsTweetBot
-###### pip install -r requirements.txt
 ###### replace the api and consumer keys in the python file
 ###### run the program and it will send out a tweet with the randomly generated number
