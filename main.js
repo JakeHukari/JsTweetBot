@@ -11,8 +11,8 @@ var T = new Twit({
   strictSSL:            true,     // optional - requires SSL certificates to be valid.
 })
 
-randomBytes.
+const random = Math.random() * 20;
 
-T.post('statuses/update', { status: 'Twit Test' }, function(err, data, response) {
+T.post('statuses/update', { status: 'Twit Test' }{random}, function(err, data, response) {
   console.log(data)
 })
