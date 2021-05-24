@@ -14,3 +14,6 @@ var T = new Twit({
   access_key:       ACCESS_KEY,
   access_secret:    ACCESS_SECRET,
 }); 
+
+T.post('statuses/update', { status: 'Twit Test' }, function(err, data, response) {
+    console.log(data)
