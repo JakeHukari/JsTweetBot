@@ -9,6 +9,7 @@ var T = new Twit({
   strictSSL:            true,     // optional - requires SSL certificates to be valid.
 })
 
+
 T.post('statuses/update', { status: 'hello world!' }, function(err, data, response) {
   console.log(data)
 })
