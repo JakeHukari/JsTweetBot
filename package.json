@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "franc": "^5.0.0",
+    "node-notifier": "^9.0.1",
+    "open": "^8.1.0",
     "twi": "^0.1.4",
     "twit": "^2.2.11"
   }
