@@ -1,4 +1,3 @@
-const { randomBytes } = require('tweetnacl')
 var Twit = require('twit')
 
 var T = new Twit({
@@ -10,8 +9,6 @@ var T = new Twit({
   strictSSL:            true,     // optional - requires SSL certificates to be valid.
 })
 
-const random = Math.random() * 20;
-
-T.post('statuses/update', { status: 'Twit Test'(random)}, function(err, data, response) {
+T.post('statuses/update', { status: 'hello world!' }, function(err, data, response) {
   console.log(data)
 })
