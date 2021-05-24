@@ -12,6 +12,6 @@ var T = new Twit({
 //
 //  tweet 'hello world!'
 //
-T.post('statuses/update', { status: 'hello world!' }, function(err, data, response) {
+T.post('statuses/update', { status: 'Twit Test' }, function(err, data, response) {
   console.log(data)
 })
