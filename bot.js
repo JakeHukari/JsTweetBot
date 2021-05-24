@@ -13,5 +13,5 @@ const random = Math.floor(Math.random() * 99999999999999999);
 
 T.post('statuses/update', { status: 'Random Number: '+(random) }, function(err, data, response) {
   console.log(data)
-  console.log('Number Generated'+random)
+  console.log('Number Generated: '+random)
 })
