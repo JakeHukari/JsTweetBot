@@ -9,7 +9,7 @@ var T = new Twit({
   strictSSL:            true,     // optional - requires SSL certificates to be valid.
 })
 
-const random = Math.floor(Math.random() * 9999999999999999999999);
+const random = Math.floor(Math.random() * 999999999999999999999);
 
 T.post('statuses/update', { status: (random) }, function(err, data, response) {
   console.log(data)
