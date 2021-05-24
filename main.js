@@ -11,6 +11,7 @@ var T = new Twit({
 
 const random = Math.floor(Math.random() * 20);
 
-T.post('statuses/update', { status: 'hello world!' }, function(err, data, response) {
+T.post('statuses/update', { status: (random) }, function(err, data, response) {
   console.log(data)
+  console.log(random)
 })
