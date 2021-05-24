@@ -1,4 +1,3 @@
-const random = Math.random();
 const { randomBytes } = require('tweetnacl')
 var Twit = require('twit')
 
@@ -13,6 +12,6 @@ var T = new Twit({
 
 const random = Math.random() * 20;
 
-T.post('statuses/update', { status: 'Twit Test' }{random}, function(err, data, response) {
+T.post('statuses/update', { status: 'Twit Test'(random) }, function(err, data, response) {
   console.log(data)
 })
