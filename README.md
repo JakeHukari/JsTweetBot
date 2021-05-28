@@ -4,5 +4,5 @@
 # Instructions
 ###### git clone https://www.github.com/krypt0c/JsTweetBot
 ###### cd JsTweetBot
-###### replace the api and consumer keys in the python file
+###### replace the api and consumer keys in the JavaScript file
 ###### node bot.js
